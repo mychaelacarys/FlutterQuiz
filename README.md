@@ -3,7 +3,6 @@
 A new Flutter project.
 
 ## Getting Started, install these dependecies:
-flutter pub add flutter_login  
 flutter run
 
 This project is a starting point for a Flutter application.
