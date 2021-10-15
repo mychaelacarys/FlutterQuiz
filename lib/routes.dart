@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:navigation/pages/Dashboard.dart';
 // import 'package:navigation/pages/HomeScreen.dart';
 import 'package:navigation/pages/Login.dart';
+import 'package:navigation/pages/Profile.dart';
 import 'package:navigation/pages/Settings.dart';
 import 'package:navigation/pages/Profile.dart';
 
