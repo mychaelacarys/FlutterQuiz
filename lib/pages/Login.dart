@@ -44,7 +44,7 @@ class _State extends State<Login> {
                     controller: nameController,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
-                      labelText: 'User Name',
+                      labelText: 'Username',
                     ),
                   ),
                 ),
