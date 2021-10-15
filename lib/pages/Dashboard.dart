@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:navigation/pages/Login.dart';
 import 'package:navigation/pages/Settings.dart';
@@ -25,8 +26,13 @@ class _DashboardState extends State<Dashboard> {
           child: Column(
             children: [
               Text(
+<<<<<<< HEAD
+                "Welcome to your dashboard!",
+                style: TextStyle(fontSize: 30.0),
+=======
                 "Dashboard",
                 style: TextStyle(fontSize: 20.0),
+>>>>>>> 259669f8669f0750eaeb2ff0e5b42bba904e48bc
               ),
               SizedBox(
                 height: 20.0,
@@ -36,10 +42,17 @@ class _DashboardState extends State<Dashboard> {
                 children: [
                   ElevatedButton.icon(
                     onPressed: () {
+<<<<<<< HEAD
+                      goToPage(context, Profile.routeName);
+                    },
+                    label: Text("Profile"),
+                    icon: Icon(CupertinoIcons.person_2_alt),
+=======
                       goToPage(context, Dashboard.routeName);
                     },
                     label: Text("Profile"),
                     icon: Icon(Icons.login),
+>>>>>>> 259669f8669f0750eaeb2ff0e5b42bba904e48bc
                     style: ElevatedButton.styleFrom(fixedSize: Size(150, 50)),
                   ),
                   SizedBox(
@@ -50,7 +63,11 @@ class _DashboardState extends State<Dashboard> {
                       goToPage(context, Settings.routeName);
                     },
                     label: Text("Settings"),
+<<<<<<< HEAD
+                    icon: Icon(Icons.settings),
+=======
                     icon: Icon(Icons.login),
+>>>>>>> 259669f8669f0750eaeb2ff0e5b42bba904e48bc
                     style: ElevatedButton.styleFrom(
                       fixedSize: Size(150, 50),
                       primary: Colors.purple,
@@ -68,4 +85,8 @@ class _DashboardState extends State<Dashboard> {
   void goToPage(BuildContext context, String route) {
     Navigator.pushNamed(context, route);
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 259669f8669f0750eaeb2ff0e5b42bba904e48bc
